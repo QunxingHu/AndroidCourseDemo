@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(nextPage);
                 break;
             }
+            case R.id.service_button:{
+                Intent nextPage=new Intent(this,ServiceTestScreen.class);
+                startActivity(nextPage);
+                break;
+            }
         }
     }
 

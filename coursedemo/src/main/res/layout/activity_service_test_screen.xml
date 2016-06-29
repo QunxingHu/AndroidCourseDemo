@@ -9,33 +9,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.coursedemo.MainActivity">
+    tools:context="com.example.coursedemo.ServiceTestScreen">
+
+    <Button
+        android:id="@+id/start_service"
+        style="@style/button_style"
+        android:text="@string/start_service" />
+
+    <Button
+        android:id="@+id/start_intent_service"
+        style="@style/button_style"
+        android:text="@string/start_intent_service" />
 
 
+    <Button
+        android:id="@+id/bind_service"
+        style="@style/button_style"
+        android:text="@string/bind_service" />
+
+    <Button
+        android:id="@+id/send_msg"
+        style="@style/button_style"
+        android:text="@string/send_msg" />
 
     <TextView
-        android:id="@+id/title_text"
-        style="@style/text_style"
-        android:gravity="center_horizontal"
-        android:text="@string/hello" />
-
-    <Button
-        android:id="@+id/data_pass"
-        style="@style/button_style"
-        android:text="@string/data_pass" />
-
-    <Button
-        android:id="@+id/menu_test"
-        style="@style/button_style"
-        android:text="@string/menu_test" />
-
-    <Button
-        android:id="@+id/listview_adapter"
-        style="@style/button_style"
-        android:text="@string/listview_adapter" />
-    <Button
-        android:id="@+id/service_button"
-        style="@style/button_style"
-        android:text="@string/service_test" />
+        android:id="@+id/reply_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/reply_string" />
 
 </LinearLayout>
